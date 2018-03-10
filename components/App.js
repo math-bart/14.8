@@ -21,7 +21,7 @@ App = React.createClass({
   },
   
   getGif: function(searchingText, callback) {  // 1.
-    var url = 'http://api.giphy.com/v1/gifs/search?q=' + searchingText;  // 2.search?q=ryan+gosling&
+    var url = 'http://api.giphy.com/v1/gifs/search?q=' + searchingText; + 'api_key=&dc6zaTOxFJmzC&limit=5' // 2.search?q=ryan+gosling&
     var xhr = new XMLHttpRequest();  // 3.
     xhr.open('GET', url);
     xhr.onload = function() {
