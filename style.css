@@ -3,14 +3,13 @@ body {
 	min-height: 100vh;	
 }
 
-.app {
+/*.app {
 	width: 80%;
 	min-width: 500px;
 	margin: 30px auto;
 	background: linear-gradient(to bottom right, #FF4500, #FA8072);
 	padding-bottom: 20px;
-}
-
+}*/
 
 input {
 	height: 40px;
