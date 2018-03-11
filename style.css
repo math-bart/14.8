@@ -2,16 +2,3 @@ body {
 	background: linear-gradient(to bottom right, #DDA0DD, #DA70D6);
 	min-height: 100vh;	
 }
-
-/*.app {
-	width: 80%;
-	min-width: 500px;
-	margin: 30px auto;
-	background: linear-gradient(to bottom right, #FF4500, #FA8072);
-	padding-bottom: 20px;
-}*/
-
-input {
-	height: 40px;
-	margin: 20px;
-}
